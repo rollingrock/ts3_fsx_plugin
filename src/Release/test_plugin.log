@@ -1,0 +1,131 @@
+﻿  configwindow.cpp
+  moc_configwindow.cpp
+  ts3_fsx_radio_plugin.cpp
+  Linking to lib file: libboost_date_time-vc100-mt-1_55.lib
+  Linking to lib file: libboost_thread-vc100-mt-1_55.lib
+  Linking to lib file: libboost_system-vc100-mt-1_55.lib
+  Linking to lib file: libboost_chrono-vc100-mt-1_55.lib
+  
+  Searching libraries
+      Searching D:\Qt\qt-everywhere-opensource-src-4.8.3_x64\lib\QtCored4.lib:
+      Searching D:\Qt\qt-everywhere-opensource-src-4.8.3_x64\lib\QtGuid4.lib:
+      Searching C:\Users\Jason\Documents\Visual Studio 2010\Projects\ts3_fsx_radio_plugin\lib\ts3client_win64.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\kernel32.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\user32.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\gdi32.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\winspool.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\comdlg32.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\advapi32.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\shell32.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\ole32.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\oleaut32.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\uuid.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\odbc32.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\amd64\msvcprt.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\amd64\MSVCRT.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\amd64\OLDNAMES.lib:
+      Searching D:\local\boost_1_55_0\lib64-msvc-10.0\libboost_date_time-vc100-mt-1_55.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\Psapi.lib:
+      Searching D:\local\boost_1_55_0\lib64-msvc-10.0\libboost_thread-vc100-mt-1_55.lib:
+      Searching D:\local\boost_1_55_0\lib64-msvc-10.0\libboost_system-vc100-mt-1_55.lib:
+      Searching D:\local\boost_1_55_0\lib64-msvc-10.0\libboost_chrono-vc100-mt-1_55.lib:
+      Searching D:\Qt\qt-everywhere-opensource-src-4.8.3_x64\lib\QtCored4.lib:
+      Searching D:\Qt\qt-everywhere-opensource-src-4.8.3_x64\lib\QtGuid4.lib:
+      Searching C:\Users\Jason\Documents\Visual Studio 2010\Projects\ts3_fsx_radio_plugin\lib\ts3client_win64.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\kernel32.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\user32.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\gdi32.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\winspool.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\comdlg32.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\advapi32.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\shell32.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\ole32.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\oleaut32.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\uuid.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\odbc32.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\amd64\msvcprt.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\amd64\MSVCRT.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\amd64\OLDNAMES.lib:
+      Searching D:\local\boost_1_55_0\lib64-msvc-10.0\libboost_date_time-vc100-mt-1_55.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\Psapi.lib:
+      Searching D:\local\boost_1_55_0\lib64-msvc-10.0\libboost_thread-vc100-mt-1_55.lib:
+      Searching D:\local\boost_1_55_0\lib64-msvc-10.0\libboost_system-vc100-mt-1_55.lib:
+      Searching D:\local\boost_1_55_0\lib64-msvc-10.0\libboost_chrono-vc100-mt-1_55.lib:
+      Searching D:\Qt\qt-everywhere-opensource-src-4.8.3_x64\lib\QtCored4.lib:
+      Searching D:\Qt\qt-everywhere-opensource-src-4.8.3_x64\lib\QtGuid4.lib:
+      Searching C:\Users\Jason\Documents\Visual Studio 2010\Projects\ts3_fsx_radio_plugin\lib\ts3client_win64.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\kernel32.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\user32.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\gdi32.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\winspool.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\comdlg32.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\advapi32.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\shell32.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\ole32.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\oleaut32.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\uuid.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\odbc32.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\amd64\msvcprt.lib:
+  
+  Finished searching libraries
+     Creating library ..\bin\plugins\ts3_fsx_radio_plugin.lib and object ..\bin\plugins\ts3_fsx_radio_plugin.exp
+  
+  Searching libraries
+      Searching D:\Qt\qt-everywhere-opensource-src-4.8.3_x64\lib\QtCored4.lib:
+      Searching D:\Qt\qt-everywhere-opensource-src-4.8.3_x64\lib\QtGuid4.lib:
+      Searching C:\Users\Jason\Documents\Visual Studio 2010\Projects\ts3_fsx_radio_plugin\lib\ts3client_win64.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\kernel32.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\user32.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\gdi32.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\winspool.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\comdlg32.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\advapi32.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\shell32.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\ole32.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\oleaut32.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\uuid.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\odbc32.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\amd64\msvcprt.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\amd64\MSVCRT.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\amd64\OLDNAMES.lib:
+      Searching D:\local\boost_1_55_0\lib64-msvc-10.0\libboost_date_time-vc100-mt-1_55.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\Psapi.lib:
+      Searching D:\local\boost_1_55_0\lib64-msvc-10.0\libboost_thread-vc100-mt-1_55.lib:
+      Searching D:\local\boost_1_55_0\lib64-msvc-10.0\libboost_system-vc100-mt-1_55.lib:
+      Searching D:\local\boost_1_55_0\lib64-msvc-10.0\libboost_chrono-vc100-mt-1_55.lib:
+  
+  Finished searching libraries
+  Generating code
+  Finished generating code
+  
+  Searching libraries
+      Searching D:\Qt\qt-everywhere-opensource-src-4.8.3_x64\lib\QtCored4.lib:
+      Searching D:\Qt\qt-everywhere-opensource-src-4.8.3_x64\lib\QtGuid4.lib:
+      Searching C:\Users\Jason\Documents\Visual Studio 2010\Projects\ts3_fsx_radio_plugin\lib\ts3client_win64.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\kernel32.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\user32.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\gdi32.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\winspool.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\comdlg32.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\advapi32.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\shell32.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\ole32.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\oleaut32.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\uuid.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\odbc32.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\amd64\msvcprt.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\amd64\MSVCRT.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\amd64\OLDNAMES.lib:
+      Searching D:\local\boost_1_55_0\lib64-msvc-10.0\libboost_date_time-vc100-mt-1_55.lib:
+      Searching C:\Program Files\Microsoft SDKs\Windows\v7.1\lib\x64\Psapi.lib:
+      Searching D:\local\boost_1_55_0\lib64-msvc-10.0\libboost_thread-vc100-mt-1_55.lib:
+      Searching D:\local\boost_1_55_0\lib64-msvc-10.0\libboost_system-vc100-mt-1_55.lib:
+      Searching D:\local\boost_1_55_0\lib64-msvc-10.0\libboost_chrono-vc100-mt-1_55.lib:
+  
+  Finished searching libraries
+  test_plugin.vcxproj -> C:\Users\Jason\Documents\Visual Studio 2010\Projects\ts3_fsx_radio_plugin\src\..\bin\plugins\ts3_fsx_radio_plugin.dll
