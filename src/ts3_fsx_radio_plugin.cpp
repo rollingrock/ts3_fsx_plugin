@@ -53,7 +53,7 @@ static struct TS3Functions ts3Functions;
 #define GUARD_FREQ1 8528   //for guard frequency 121.50
 #define GUARD_FREQ2 12336  // for guard frequency 130.30
 
-static char* pluginID = NULL;
+char* pluginID = NULL;
 
 enum WHISPER_LIST_COMM
 {
@@ -428,7 +428,6 @@ void ts3plugin_setFunctionPointers(const struct TS3Functions funcs) {
  * If the function returns 1 on failure, the plugin will be unloaded again.
  */
 int ts3plugin_init() {
-
 	comm_freqs.comm1_freq = 0;
 	comm_freqs.comm2_freq = 0;
 
@@ -477,6 +476,10 @@ int ts3plugin_offersConfigure() {
 /* Plugin might offer a configuration window. If ts3plugin_offersConfigure returns 0, this function does not need to be implemented. */
 void ts3plugin_configure(void* handle, void* qParentWidget) {
     printf("PLUGIN: configure\n");
+
+	ConfigWindow *config_plugin = new ConfigWindow;
+	config_plugin->setAttribute(Qt::WA_DeleteOnClose);
+	config_plugin->show();
 }
 
 /*
@@ -488,7 +491,7 @@ void ts3plugin_registerPluginID(const char* id) {
 	const size_t sz = strlen(id) + 1;
 	pluginID = (char*)malloc(sz * sizeof(char));
 	_strcpy(pluginID, sz, id);  /* The id buffer will invalidate after exiting this function */
-	printf("PLUGIN: registerPluginID: %s\n", pluginID);
+	printf("FSX PLUGIN: registerPluginID: %s\n", pluginID);
 }
 
 /*
@@ -606,6 +609,7 @@ void ts3plugin_onDelChannelEvent(uint64 serverConnectionHandlerID, uint64 channe
 }
 
 void ts3plugin_onChannelMoveEvent(uint64 serverConnectionHandlerID, uint64 channelID, uint64 newChannelParentID, anyID invokerID, const char* invokerName, const char* invokerUniqueIdentifier) {
+	
 }
 
 void ts3plugin_onUpdateChannelEvent(uint64 serverConnectionHandlerID, uint64 channelID) {
@@ -667,7 +671,6 @@ int ts3plugin_onTextMessageEvent(uint64 serverConnectionHandlerID, anyID targetM
 }
 
 void ts3plugin_onTalkStatusChangeEvent(uint64 serverConnectionHandlerID, int status, int isReceivedWhisper, anyID clientID) {
-	
 	whisper_in = false;
 
 	if (status && isReceivedWhisper) {

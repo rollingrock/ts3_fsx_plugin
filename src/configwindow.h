@@ -1,13 +1,13 @@
 #ifndef CONFIGWINDOW_H
 #define CONFIGWINDOW_H
 
-#include <QMainWindow>
+#include <QDialog>
 
 namespace Ui {
 class ConfigWindow;
 }
 
-class ConfigWindow : public QMainWindow
+class ConfigWindow : public QDialog
 {
     Q_OBJECT
 
@@ -17,6 +17,8 @@ public:
 
 private slots:
     void on_pushButton_clicked();
+
+    void on_pushButton_2_clicked();
 
 private:
     Ui::ConfigWindow *ui;
