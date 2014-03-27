@@ -37,3 +37,17 @@ Version History
 ---------------------------------------
 V1.0 11/18/12
 - Intial release.
+v1.1-1.4
+- Internal testing.
+- Added PTT hotkey support handled with teamspeak
+- Added guard channels
+- Added down sampling of audio output to provide slight distortion and provide difference to normal teamspeak transmission
+v1.5
+- initial public release.
+- bug fixes with whisper list handling.
+v1.6
+- updated to boost v1.55
+- updated to Qt 5.2.1
+- Added settings dialog window
+- Added method to set hotkeys in settings window.  will also detect conflicts and mismatches and flag the user
+- working on enabling custom guard channels.  not fully implemented yet.
