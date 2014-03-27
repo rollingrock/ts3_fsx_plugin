@@ -1,46 +1,383 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>ConfigWindow</class>
- <widget class="QDialog" name="ConfigWindow">
-  <property name="geometry">
-   <rect>
-    <x>0</x>
-    <y>0</y>
-    <width>400</width>
-    <height>300</height>
-   </rect>
-  </property>
-  <property name="windowTitle">
-   <string>ConfigWindow</string>
-  </property>
-  <widget class="QPushButton" name="pushButton">
-   <property name="geometry">
-    <rect>
-     <x>270</x>
-     <y>240</y>
-     <width>75</width>
-     <height>23</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Close</string>
-   </property>
+  <class>ConfigWindow</class>
+  <widget class="QDialog" name="ConfigWindow">
+    <property name="geometry">
+      <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>491</width>
+        <height>428</height>
+      </rect>
+    </property>
+    <property name="windowTitle">
+      <string>ConfigWindow</string>
+    </property>
+    <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+        <rect>
+          <x>180</x>
+          <y>360</y>
+          <width>131</width>
+          <height>23</height>
+        </rect>
+      </property>
+      <property name="text">
+        <string>Close</string>
+      </property>
+    </widget>
+    <widget class="QLabel" name="label">
+      <property name="geometry">
+        <rect>
+          <x>90</x>
+          <y>0</y>
+          <width>331</width>
+          <height>21</height>
+        </rect>
+      </property>
+      <property name="font">
+        <font>
+          <family>MS UI Gothic</family>
+          <pointsize>14</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+        </font>
+      </property>
+      <property name="text">
+        <string>FSX Radio Plugin for Teamspeak 3</string>
+      </property>
+    </widget>
+    <widget class="Line" name="line">
+      <property name="geometry">
+        <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>471</width>
+          <height>16</height>
+        </rect>
+      </property>
+      <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+      </property>
+    </widget>
+    <widget class="QPushButton" name="comm1_keyup_button">
+      <property name="geometry">
+        <rect>
+          <x>20</x>
+          <y>110</y>
+          <width>111</width>
+          <height>23</height>
+        </rect>
+      </property>
+      <property name="text">
+        <string>COMM1 Key UP</string>
+      </property>
+    </widget>
+    <widget class="QLabel" name="comm1_keyup_label">
+      <property name="geometry">
+        <rect>
+          <x>140</x>
+          <y>110</y>
+          <width>91</width>
+          <height>21</height>
+        </rect>
+      </property>
+      <property name="font">
+        <font>
+          <family>MS Sans Serif</family>
+          <pointsize>10</pointsize>
+        </font>
+      </property>
+      <property name="text">
+        <string>Key Not Set</string>
+      </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox">
+      <property name="geometry">
+        <rect>
+          <x>10</x>
+          <y>80</y>
+          <width>231</width>
+          <height>121</height>
+        </rect>
+      </property>
+      <property name="title">
+        <string>COMM1 PTT Setup</string>
+      </property>
+      <widget class="QLabel" name="comm1_keydown_label">
+        <property name="geometry">
+          <rect>
+            <x>130</x>
+            <y>80</y>
+            <width>91</width>
+            <height>21</height>
+          </rect>
+        </property>
+        <property name="font">
+          <font>
+            <family>MS Sans Serif</family>
+            <pointsize>10</pointsize>
+          </font>
+        </property>
+        <property name="text">
+          <string>Key Not Set</string>
+        </property>
+      </widget>
+      <widget class="QLabel" name="label_3">
+        <property name="geometry">
+          <rect>
+            <x>10</x>
+            <y>55</y>
+            <width>201</width>
+            <height>21</height>
+          </rect>
+        </property>
+        <property name="font">
+          <font>
+            <underline>true</underline>
+          </font>
+        </property>
+        <property name="text">
+          <string>KEYUP/KEYDOWN KEYS DO NOT MATCH!!!</string>
+        </property>
+      </widget>
+      <widget class="QPushButton" name="comm1_keydown_button">
+        <property name="geometry">
+          <rect>
+            <x>10</x>
+            <y>80</y>
+            <width>111</width>
+            <height>23</height>
+          </rect>
+        </property>
+        <property name="text">
+          <string>COMM1 Key DOWN</string>
+        </property>
+      </widget>
+      <zorder>comm1_keydown_label</zorder>
+      <zorder>comm1_keydown_button</zorder>
+      <zorder>comm1_keydown_button</zorder>
+      <zorder>label_3</zorder>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_2">
+      <property name="geometry">
+        <rect>
+          <x>250</x>
+          <y>80</y>
+          <width>231</width>
+          <height>121</height>
+        </rect>
+      </property>
+      <property name="title">
+        <string>COMM2 PTT Setup</string>
+      </property>
+      <widget class="QPushButton" name="comm2_keyup_button">
+        <property name="geometry">
+          <rect>
+            <x>10</x>
+            <y>30</y>
+            <width>111</width>
+            <height>23</height>
+          </rect>
+        </property>
+        <property name="text">
+          <string>COMM2 Key UP</string>
+        </property>
+      </widget>
+      <widget class="QPushButton" name="comm2_keydown_button">
+        <property name="geometry">
+          <rect>
+            <x>10</x>
+            <y>80</y>
+            <width>111</width>
+            <height>23</height>
+          </rect>
+        </property>
+        <property name="text">
+          <string>COMM2 Key DOWN</string>
+        </property>
+      </widget>
+      <widget class="QLabel" name="comm2_keyup_label">
+        <property name="geometry">
+          <rect>
+            <x>130</x>
+            <y>30</y>
+            <width>91</width>
+            <height>21</height>
+          </rect>
+        </property>
+        <property name="font">
+          <font>
+            <family>MS Sans Serif</family>
+            <pointsize>10</pointsize>
+          </font>
+        </property>
+        <property name="text">
+          <string>Key Not Set</string>
+        </property>
+      </widget>
+      <widget class="QLabel" name="comm2_keydown_label">
+        <property name="geometry">
+          <rect>
+            <x>130</x>
+            <y>80</y>
+            <width>91</width>
+            <height>21</height>
+          </rect>
+        </property>
+        <property name="font">
+          <font>
+            <family>MS Sans Serif</family>
+            <pointsize>10</pointsize>
+          </font>
+        </property>
+        <property name="text">
+          <string>Key Not Set</string>
+        </property>
+      </widget>
+      <widget class="QLabel" name="label_4">
+        <property name="geometry">
+          <rect>
+            <x>10</x>
+            <y>55</y>
+            <width>201</width>
+            <height>21</height>
+          </rect>
+        </property>
+        <property name="font">
+          <font>
+            <underline>true</underline>
+          </font>
+        </property>
+        <property name="text">
+          <string>KEYUP/KEYDOWN KEYS DO NOT MATCH!!!</string>
+        </property>
+      </widget>
+    </widget>
+    <widget class="QLabel" name="label_2">
+      <property name="geometry">
+        <rect>
+          <x>20</x>
+          <y>30</y>
+          <width>461</width>
+          <height>31</height>
+        </rect>
+      </property>
+      <property name="text">
+        <string>Set Seperate PTT hotkeys for COMM1 and COMM2.  Must set the same key for the key up and Key down commands seperately.</string>
+      </property>
+      <property name="wordWrap">
+        <bool>true</bool>
+      </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+      <property name="geometry">
+        <rect>
+          <x>70</x>
+          <y>400</y>
+          <width>371</width>
+          <height>21</height>
+        </rect>
+      </property>
+      <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Author Jason Pharis CVW-3 Visit us at &lt;a href=&quot;http://www.virtualcarrierwing3.com&quot;&gt;http://www.virtualcarrierwing3.com&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+      <property name="geometry">
+        <rect>
+          <x>20</x>
+          <y>280</y>
+          <width>271</width>
+          <height>16</height>
+        </rect>
+      </property>
+      <property name="styleSheet">
+        <string notr="true"/>
+      </property>
+      <property name="text">
+        <string>Feature to add custom guard channels comming soon!</string>
+      </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox">
+      <property name="geometry">
+        <rect>
+          <x>20</x>
+          <y>230</y>
+          <width>91</width>
+          <height>21</height>
+        </rect>
+      </property>
+      <property name="styleSheet">
+        <string notr="true"/>
+      </property>
+      <property name="text">
+        <string>Enable 121.5</string>
+      </property>
+      <property name="checked">
+        <bool>true</bool>
+      </property>
+    </widget>
+    <widget class="QLabel" name="label_8">
+      <property name="geometry">
+        <rect>
+          <x>20</x>
+          <y>310</y>
+          <width>441</width>
+          <height>31</height>
+        </rect>
+      </property>
+      <property name="styleSheet">
+        <string notr="true">font-weight : bold; color : red; font-size : 12pt;</string>
+      </property>
+      <property name="text">
+        <string>Contact rollingrock16@gmail.com for support issues!</string>
+      </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+      <property name="geometry">
+        <rect>
+          <x>20</x>
+          <y>200</y>
+          <width>311</width>
+          <height>31</height>
+        </rect>
+      </property>
+      <property name="font">
+        <font>
+          <pointsize>12</pointsize>
+        </font>
+      </property>
+      <property name="styleSheet">
+        <string notr="true"/>
+      </property>
+      <property name="text">
+        <string>Enable Guard channel 121.5 below:</string>
+      </property>
+    </widget>
+    <zorder>groupBox</zorder>
+    <zorder>groupBox_2</zorder>
+    <zorder>pushButton</zorder>
+    <zorder>label</zorder>
+    <zorder>line</zorder>
+    <zorder>comm1_keyup_button</zorder>
+    <zorder>comm1_keyup_label</zorder>
+    <zorder>label_2</zorder>
+    <zorder>label_9</zorder>
+    <zorder>label_7</zorder>
+    <zorder>checkBox</zorder>
+    <zorder>label_8</zorder>
+    <zorder>label_6</zorder>
+    <zorder>label_3</zorder>
+    <zorder>comm1_keydown_label</zorder>
+    <zorder>comm1_keydown_button</zorder>
+    <zorder>comm2_keydown_label</zorder>
+    <zorder>label_4</zorder>
+    <zorder>comm2_keydown_button</zorder>
+    <zorder>comm2_keyup_label</zorder>
+    <zorder>comm2_keyup_button</zorder>
   </widget>
-  <widget class="QPushButton" name="pushButton_2">
-   <property name="geometry">
-    <rect>
-     <x>100</x>
-     <y>120</y>
-     <width>75</width>
-     <height>23</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>PTT</string>
-   </property>
-  </widget>
- </widget>
- <layoutdefault spacing="6" margin="11"/>
- <resources/>
- <connections/>
+  <layoutdefault spacing="6" margin="11"/>
+  <resources/>
+  <connections/>
 </ui>

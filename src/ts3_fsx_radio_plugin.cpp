@@ -53,7 +53,7 @@ static struct TS3Functions ts3Functions;
 #define GUARD_FREQ1 8528   //for guard frequency 121.50
 #define GUARD_FREQ2 12336  // for guard frequency 130.30
 
-char* pluginID = NULL;
+static char* pluginID = NULL;
 
 enum WHISPER_LIST_COMM
 {
@@ -95,6 +95,9 @@ struct COMM_FREQ
 int *shr_mem_start;
 int lock_whisper;
 bool whisper_in;
+
+ConfigWindow *config_plugin;  //Pointer for config dialog invoked in api function.
+
 
 #ifdef _WIN32
 /* Helper function to convert wchar_T to Utf-8 encoded strings on Windows */
@@ -428,6 +431,7 @@ void ts3plugin_setFunctionPointers(const struct TS3Functions funcs) {
  * If the function returns 1 on failure, the plugin will be unloaded again.
  */
 int ts3plugin_init() {
+	freopen("CONOUT$", "wb", stdout);
 	comm_freqs.comm1_freq = 0;
 	comm_freqs.comm2_freq = 0;
 
@@ -477,8 +481,11 @@ int ts3plugin_offersConfigure() {
 void ts3plugin_configure(void* handle, void* qParentWidget) {
     printf("PLUGIN: configure\n");
 
-	ConfigWindow *config_plugin = new ConfigWindow;
+	config_plugin = new ConfigWindow;
 	config_plugin->setAttribute(Qt::WA_DeleteOnClose);
+	config_plugin->set_ts3func(&ts3Functions);
+	config_plugin->set_pluginID(pluginID);
+	config_plugin->set_all_ptt_labels();
 	config_plugin->show();
 }
 
@@ -856,5 +863,5 @@ void ts3plugin_onHotkeyEvent(const char* keyword) {
 
 /* Called when recording a hotkey has finished after calling ts3Functions.requestHotkeyInputDialog */
 void ts3plugin_onHotkeyRecordedEvent(const char* keyword, const char* key) {
-
+	config_plugin->set_ptt_label(keyword);
 }
