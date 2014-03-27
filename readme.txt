@@ -3,6 +3,7 @@ Author : Jason Pharis - rollingrock16@gmail.com
 www.virtualcarrierwing3.com
 
 Installation:
+
 Sorry no fancy installer yet!  Please follow these directions:
 
 1) First understand if you have the 32 bit or 64 bit version of teamspeak installed.  Once you know this copy the appropriate ts3_fsx_radio_plugin_xxbit.dll into your teamspeak plugins folder (typically found in C:\Program Files\TeamSpeak 3 Client\plugins).
@@ -22,10 +23,7 @@ Sorry no fancy installer yet!  Please follow these directions:
 NOTE that (PATH TO FSX ROOT) should be replaced with the actual path.  For instance on my setup this line looks like:
 		<Path>D:\fsx\simconnect_getradio.exe</Path>
 
-4) You need to setup 4 hotkeys in Teamspeak 3.  Go to Settings/Options/Hotkeys and click Add towards the bottom of the window
-4a) This should bring up the hotkey Setup Diaglog.  Click Show advanced Actions
-4b) Expand "Plugins" ; then Expand "Plugin Hotkey" ; Finally expand "ts3_fsx_radio_plugin"
-4c) Setup hotkeys for the 4 listed.  Not it's really just 2 buttons but you have to setup "On key Down" and "on Key release" for each button.
+4) You need to setup 4 hotkeys in Teamspeak 3.  Go into the Teamspeak Plugins menu and click the settings button with the plugin highlighted. Follow the directions in the dialog window. 
 
 5) Launch FSX with the plugin running and you're all set!
 
